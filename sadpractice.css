@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+.content{
+    padding: 10px;
+}
+.background-image{
+    background-image: url("african.jpg");
+    min-width: 500px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.background-image h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+}
